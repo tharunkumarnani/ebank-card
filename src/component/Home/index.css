@@ -1,0 +1,42 @@
+.home-bg {
+  background-color: #152850;
+  font-family: Roboto;
+  padding: 20px;
+  height: 100vh;
+}
+.nav-bar {
+  padding: 5px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.log-out {
+  background-color: transparent;
+  border: #f8fafc 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #f8fafc;
+  font-size: 20px;
+}
+.home-card {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f8fafc;
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .card {
+    width: 90%;
+  }
+}
